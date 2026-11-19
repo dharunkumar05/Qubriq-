@@ -1,0 +1,1 @@
+export default function Pagination() { return <nav className="pagination" aria-label="Pagination"><button className="btn btn--outline">Previous</button><button className="btn btn--outline">1</button><button className="btn btn--outline">2</button><button className="btn btn--outline">3</button><button className="btn btn--outline">Next</button></nav>; }

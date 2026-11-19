@@ -1,0 +1,1 @@
+import { ModulePage,Panel,EmptyState } from "../ModulePage.jsx"; export default function TrackingPage(){return <ModulePage title="Live Tracking" columns={['Vehicle', 'Shipment', 'Position', 'ETA']} kpis={[]}><div className="module-grid"><Panel title="Live Tracking"><EmptyState/></Panel><Panel title="Details"><EmptyState/></Panel></div></ModulePage>}

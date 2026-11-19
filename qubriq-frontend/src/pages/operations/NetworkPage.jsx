@@ -1,0 +1,1 @@
+import { ModulePage,Panel,EmptyState } from "../ModulePage.jsx"; export default function NetworkPage(){return <ModulePage title="Network Intelligence" columns={['Node', 'Type', 'Impact', 'Status']} kpis={[]}><div className="module-grid"><Panel title="Network Intelligence"><EmptyState/></Panel><Panel title="Details"><EmptyState/></Panel></div></ModulePage>}

@@ -1,0 +1,1 @@
+export default function FilterBar({ chips = [] }) { return <div className="filter-bar"><input aria-label="Search" placeholder="Search" />{chips.map((chip) => <button className="chip" key={chip}>{chip}</button>)}</div>; }

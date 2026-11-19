@@ -53,10 +53,10 @@ export default function Landing() {
             tracking and predictive intelligence in one platform.
           </p>
           <div className="hero__actions">
-            <button className="btn btn--primary btn--lg" onClick={() => navigate("/access")}>
+            <button className="btn btn--primary btn--lg" onClick={() => navigate("/signup")}>
               Get Started
             </button>
-            <button className="btn btn--light btn--lg" onClick={() => navigate("/signin")}>
+            <button className="btn btn--light btn--lg" onClick={() => navigate("/login")}>
               Login
             </button>
           </div>

@@ -1,0 +1,1 @@
+export default function PageHeader({ title, actions = [] }) { return <div className="page-header"><h1>{title}</h1><div className="page-header__actions">{actions.map((a) => <button key={a.label} className={`btn ${a.primary ? "btn--primary" : "btn--outline"}`} onClick={a.onClick}>{a.label}</button>)}</div></div>; }
