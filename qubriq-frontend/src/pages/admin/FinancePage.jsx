@@ -1,0 +1,1 @@
+import { Shell } from "../ModulePage.jsx"; export default function FinancePage(){return <Shell title="Finance" columns={["Name","Status","Actions"]}/>}

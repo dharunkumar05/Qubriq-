@@ -1,0 +1,1 @@
+import { ModulePage } from "../ModulePage.jsx"; export default function MyShipmentsPage(){return <ModulePage title="My Shipments" tabs filters={["Date range","Status"]} columns={["Booking ID","Pickup","Delivery","Cargo","Status","ETA","Actions"]}/> }

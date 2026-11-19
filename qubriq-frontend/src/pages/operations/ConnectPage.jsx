@@ -1,0 +1,1 @@
+import { ModulePage,Panel,EmptyState } from "../ModulePage.jsx"; export default function ConnectPage(){return <ModulePage title="Qubriq Connect" columns={['Conversation', 'Customer', 'Status', 'Last update']} kpis={[]}><div className="module-grid"><Panel title="Qubriq Connect"><EmptyState/></Panel><Panel title="Details"><EmptyState/></Panel></div></ModulePage>}

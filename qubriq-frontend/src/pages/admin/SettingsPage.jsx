@@ -1,0 +1,1 @@
+import { Shell } from "../ModulePage.jsx"; export default function SettingsPage(){return <Shell title="Settings" columns={["Name","Status","Actions"]}/>}

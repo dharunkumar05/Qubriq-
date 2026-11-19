@@ -1,0 +1,1 @@
+import PageHeader from "../../components/layout/PageHeader.jsx"; import Panel from "../../components/layout/Panel.jsx"; import {EmptyState,Timeline} from "../ModulePage.jsx"; export default function DeliveryStatusPage(){return <><PageHeader title="Delivery Status"/><Panel><Timeline/><EmptyState/></Panel></>}

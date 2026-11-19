@@ -1,6 +1,10 @@
 # Dependencies
 node_modules/
 
+# .NET build output
+bin/
+obj/
+
 # Vite build output and cache
 dist/
 .vite/
@@ -18,7 +22,9 @@ yarn-error.log*
 pnpm-debug.log*
 
 # Editor and OS files
+.vs/
 .vscode/
 .idea/
 .DS_Store
 Thumbs.db
+*.csproj.user

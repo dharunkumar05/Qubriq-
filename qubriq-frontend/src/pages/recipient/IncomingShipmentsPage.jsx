@@ -1,0 +1,1 @@
+import { Shell } from "../ModulePage.jsx"; export default function IncomingShipmentsPage(){return <Shell title="Incoming Shipments" columns={["Shipment","Sender","Expected date","Status","Actions"]}/> }

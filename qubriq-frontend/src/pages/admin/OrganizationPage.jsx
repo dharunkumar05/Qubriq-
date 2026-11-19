@@ -1,0 +1,1 @@
+import { Shell } from "../ModulePage.jsx"; export default function OrganizationPage(){return <Shell title="Organization Management" columns={["Name","Status","Actions"]}/>}

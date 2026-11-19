@@ -1,0 +1,1 @@
+import { Shell } from "../ModulePage.jsx"; export default function UsersPage(){return <Shell title="User Management" columns={["Name","Status","Actions"]}/>}

@@ -1,0 +1,1 @@
+import PageHeader from "../../components/layout/PageHeader.jsx"; import Panel from "../../components/layout/Panel.jsx"; import {EmptyState} from "../ModulePage.jsx"; export default function DeliveryConfirmationPage(){return <><PageHeader title="Delivery Confirmation"/><Panel><EmptyState/><button className="btn btn--primary" disabled>Confirm delivery</button></Panel></>}

@@ -1,0 +1,1 @@
+import PageHeader from "../../components/layout/PageHeader.jsx"; import { NotificationSettings } from "../ModulePage.jsx"; export default function NotificationsPage(){return <><PageHeader title="Notifications"/><NotificationSettings items={["Booking confirmation","Shipment pickup","In-transit updates","Delay notifications","Out-for-delivery","Delivery confirmation"]}/></>}

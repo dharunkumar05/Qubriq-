@@ -17,10 +17,10 @@ export default function Navbar() {
       </nav>
 
       <div className="navbar__actions">
-        <button className="btn btn--outline" onClick={() => navigate("/signin")}>
+        <button className="btn btn--outline" onClick={() => navigate("/login")}>
           Login
         </button>
-        <button className="btn btn--primary" onClick={() => navigate("/access")}>
+        <button className="btn btn--primary" onClick={() => navigate("/signup")}>
           Get Started
         </button>
       </div>

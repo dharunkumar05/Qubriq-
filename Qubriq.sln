@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E174A807-3162-4F85-91A1-4C2E3D5B8194}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Qubriq.Api", "src\Qubriq.Api\Qubriq.Api.csproj", "{5EAF2251-FDD5-41EF-8330-CB3BBFCDF9A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5EAF2251-FDD5-41EF-8330-CB3BBFCDF9A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EAF2251-FDD5-41EF-8330-CB3BBFCDF9A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EAF2251-FDD5-41EF-8330-CB3BBFCDF9A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EAF2251-FDD5-41EF-8330-CB3BBFCDF9A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5EAF2251-FDD5-41EF-8330-CB3BBFCDF9A3} = {E174A807-3162-4F85-91A1-4C2E3D5B8194}
+	EndGlobalSection
+EndGlobal
